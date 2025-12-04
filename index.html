@@ -3,45 +3,98 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Narnia the movie - soon on FS Cinema."
-    />
+    <meta name="description" content="Narnia the movie - on FS Cinema." />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
     <title>FS BIO</title>
   </head>
   <body>
     <header>
-      <a href="">
-        <img src="" alt="" />
-      </a>
+      <div class="logo-container">
+        <a href="index.html">
+          <img class="logo" src="images/logo.png" alt="narnia_logo" />
+        </a>
+      </div>
     </header>
 
-    <div class="main">
-      <section class="info-text">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, facere
-        tempore numquam dolore fugiat minima veniam ab aliquid rem! Voluptate
-        tempora minus placeat ullam tempore odit quis nam voluptatum porro.
-      </section>
-
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/LGqkxyWYRNQ?si=qSHs5CrLIaYlXlrC"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen
-      ></iframe>
+    <div class="status-bar-container">
+      <ul class="status-bar-list">
+        <li class="status-bar-li">
+          <p class="status-bar-heading-text">RATING</p>
+          <div class="icon-container">
+            <i class="bi bi-star-fill"></i>
+            <p class="status-bar-text">6.3/10</p>
+          </div>
+        </li>
+        <li class="status-bar-li">
+          <p class="status-bar-heading-text">POPULARITY</p>
+          <div class="icon-container">
+            <i class="bi bi-graph-up-arrow"></i>
+            <p class="status-bar-text">2.333</p>
+          </div>
+        </li>
+      </ul>
     </div>
 
-    <div>
-      <link rel="stylesheet" href="" />
-    </div>
+    <main>
+      <div class="section-one">
+        <img class="poster-img" src="images/poster.jpg" alt="" />
+        <iframe
+          class="video"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/LGqkxyWYRNQ?si=qSHs5CrLIaYlXlrC"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
 
-    <footer>
-      <p></p>
-    </footer>
+      <div>
+        <ul class="tags-container">
+          <li class="tag-list">
+            <a class="tag-links" href="#">Family</a>
+            <a class="tag-links" href="#">Fantacy</a>
+            <a class="tag-links" href="#">Adventure</a>
+            <a class="tag-links" href="#">Epic</a>
+            <a class="tag-links" href="#">Christmas</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="section-two">
+        <div class="info-text">
+          <p>
+            The Chronicles of Narnia: The Voyage of the Dawn Treader follows
+            Lucy and Edmund Pevensie as they return to Narnia with their cousin
+            Eustace and join King Caspian aboard the majestic ship The Dawn
+            Treader. Their quest leads them across mysterious islands, dangerous
+            seas, and encounters with magical creatures as they seek to rescue
+            kidnapped lords and confront a rising evil threatening Narnia.
+          </p>
+        </div>
+        <div class="info-text">
+          <p>
+            The film was directed by <b>Michael Apted</b> and stars
+            <b>Georgie Henley</b>, <b>Skandar Keynes</b>, <b>Ben Barnes</b>, and
+            <b>Will Poulter</b>. <br /><br />
+
+            It premiered in 2010, with the world premiere on November 30, 2010,
+            and the general release beginning in early December of the same
+            year.
+          </p>
+        </div>
+      </div>
+
+      <footer>
+        <p class="footer-text">
+          © 2025 FS CINEMA. Site developed and maintained by: Ida G Johansson
+        </p>
+      </footer>
+    </main>
   </body>
 </html>
